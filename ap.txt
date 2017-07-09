@@ -1,0 +1,215 @@
+1./* package whatever; // don't place package name! */
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+/* Name of the class has to be "Main" only if the class is public. */
+class Ideone
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		int a=35;
+		if(a>0)
+		System.out.println("The number is positive");
+		else if(a<0)
+		System.out.println("The number is negative");
+		else
+		System.out.println("The number is zero");
+		
+	}
+}
+
+
+2./* package whatever; // don't place package name! */
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+/* Name of the class has to be "Main" only if the class is public. */
+class Ideone
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		int a=51;
+		if(a%2==0)
+		System.out.println("The number is even");
+		else
+		System.out.println("The number is odd");
+	}
+}
+
+
+3./* package whatever; // don't place package name! */
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+/* Name of the class has to be "Main" only if the class is public. */
+class Ideone
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		char ch='i';
+		if(ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u')
+		System.out.println("it is vowel");
+		else
+		System.out.println("it is cosonent");
+	}
+}
+
+
+4./* package whatever; // don't place package name! */
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+/* Name of the class has to be "Main" only if the class is public. */
+class Ideone
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		char ch='D';
+		if(ch>=65 && ch<=91)
+		System.out.println("It ia an alphabet");
+		else
+		System.out.println("It is not an alphabet");
+	}
+}
+
+
+5./* package whatever; // don't place package name! */
+ 
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+ 
+/* Name of the class has to be "Main" only if the class is public. */
+class Ideone
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		int a=5,b=6,c=87;
+		int x;
+		if(a>b)
+		x=a;
+		else
+		x=b;
+		if(x>c)
+		System.out.println("The larger value is "+x);
+		else
+		System.out.println("The larger value is "+c);
+	}
+}
+
+
+
+6./* package whatever; // don't place package name! */
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+/* Name of the class has to be "Main" only if the class is public. */
+class Ideone
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		int a=2000;
+		if(a%4==0)
+		System.out.println("leap year");
+		else
+		System.out.println("Not a leap year");
+	}
+}
+
+
+7./* package whatever; // don't place package name! */
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+/* Name of the class has to be "Main" only if the class is public. */
+class Ideone
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		for(int i=0;i<=4;i++)
+		System.out.println("Hello");
+	}
+}
+
+
+8./* package whatever; // don't place package name! */
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+/* Name of the class has to be "Main" only if the class is public. */
+class Ideone
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		int n=50;
+		int sum =0;
+		for(int i=1;i<=50;i++)
+		{
+			sum =sum+i;
+		}
+		System.out.println("Sum of n muberers is"+sum);
+	}
+}
+
+
+
+9./* package whatever; // don't place package name! */
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+/* Name of the class has to be "Main" only if the class is public. */
+class Ideone
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		int n=50;
+		int sum =0;
+		for(int i=1;i<=50;i++)
+		{
+			sum =sum+i;
+		}
+		System.out.println("Sum of n muberers is"+sum);
+	}
+}
+
+
+
+
+
+
+10./* package whatever; // don't place package name! */
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+/* Name of the class has to be "Main" only if the class is public. */
+class Ideone
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		int num=3243;
+		int c=0;
+		for(int i=num;i>0;i=i/10)
+		{
+			c++;
+		}
+		System.out.println("The number of interger"+c);
+	}
+}
